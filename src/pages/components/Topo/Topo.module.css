@@ -1,0 +1,48 @@
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.topo picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+}
+
+.topo nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.topo nav a {
+    text-transform: uppercase;
+    color: chocolate;
+    font-weight: bold;
+    position: relative;
+}
+
+.topo nav a:hover {
+    color: rgba(255, 115, 0, 0.829);
+}
+
+@media (max-width: 520px) {
+    .topo {
+        justify-content: center;
+    }
+
+    .topo nav {
+        justify-content: center;
+    }
+}
