@@ -1,0 +1,106 @@
+.sobre {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.titulos {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.titulos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    font-family: 'Anybody', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulos p {
+    font-size: 1.1rem;
+}
+
+.titulos p+p {
+    margin-top: 25px;
+}
+
+.fotos_descricao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 50px 0px;
+}
+
+.card_sobre {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card_sobre h3 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.card_sobre p {
+    font-weight: bold;
+    font-size: 1.25;
+    margin-top: 25px;
+}
+
+.card_sobre picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card_sobre picture img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.descricao {
+    padding: 30px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.descricao h2 {
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .titulos h2 {
+        font-size: 2rem;
+    }
+
+    .titulos p {
+        font-size: 1rem;
+    }
+
+    .card_sobre h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .fotos_descricao {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin: 50px 10px;
+    }
+}

@@ -1,0 +1,40 @@
+.secao_contato {
+    background-color: rgba(245, 239, 227, 0.815);
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+
+.separacao {
+    display: flex;
+    gap: 300px;
+}
+
+.logo_descricao picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.logo_descricao p {
+    margin-top: 40px;
+    margin-left: 260px;
+}
+
+.sncs {
+    display: flex;
+    gap: 120px;
+    margin-top: 100px;
+}
+
+.sncs h4 {
+    font-size: 1.2em;
+    font-family: 'Anybody', cursive;
+}
+
+.sncs p {
+    margin-top: 30px;
+}

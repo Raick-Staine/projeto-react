@@ -4,6 +4,8 @@ import styles from "@/styles/Home.module.css";
 import Topo from "./components/Topo";
 import Banner from "./components/Banner";
 import Produtos from "./components/SecaoProdutos";
+import Sobre from "./components/Sobre";
+import Contato from "./components/Contato";
 
 
 export default function Home() {
@@ -21,6 +23,12 @@ export default function Home() {
       </section>
       <section>
         <Produtos/>
+      </section>
+      <section>
+        <Sobre/>
+      </section>
+      <section>
+        <Contato/>
       </section>
     </>
   );
